@@ -7,7 +7,11 @@ const DisplayName = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setFullName(`${firstName} ${lastName}`);
+    if (firstName !== "" && lastName !== "") {
+      setFullName(`${firstName} ${lastName}`);
+    } else {
+      setFullName("");
+    }
   };
 
   const handleFirstNameChange = (event) => {
