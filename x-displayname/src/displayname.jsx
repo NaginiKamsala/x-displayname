@@ -24,7 +24,7 @@ const DisplayName = () => {
 
   return (
     <div>
-      <h1>FullName Display</h1>
+      <h1>Full Name Display</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label>
