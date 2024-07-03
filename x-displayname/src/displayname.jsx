@@ -50,7 +50,7 @@ const DisplayName = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
-      <div>{fullName && <h2>Full Name: {fullName}</h2>}</div>
+      {fullName && <h2>Full Name: {fullName}</h2>}
     </div>
   );
 };
